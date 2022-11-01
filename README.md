@@ -38,6 +38,13 @@ and download the corresponding libraries
 After you have finished the Development Environment Setup and with an activated
 environment, you can run the app with the command ```py Greed```
 
+## Team Members
+- Cate Schmidt -> sch21103@byui.edu
+- Danny Hernandez -> her17048@byui.edu
+- Reynaldo Armenta Bravo -> arm19008@byui.edu
+- Anthuan Morera Zaldivar -> mor21098@byui.edu
+- Alan Montoya -> mon21033@byui.edu
+
 ## Have Some Fun
 Make the game your own by enhancing it any way you like. Here are a few ideas.
 
