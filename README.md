@@ -1,8 +1,9 @@
 # Greed Specification
-He who is not contented with what he has,
-would not be contented with what he would like to have.
 
-- Socrates -
+> He who is not contented with what he has,
+> would not be contented with what he would like to have.
+> 
+> &mdash; Socrates &mdash;
 ## Overview
 Greed is a game in which the player seeks to gather as many falling gems as possible. The game continues as long as the player wants more!
 
@@ -17,7 +18,25 @@ Greed is played according to the following rules.
 - The game continues until the player closes the window.
 
 ## Interface
-![alt text](greed-screenshot.png)
+<img src="greed-screenshot.png" width="60%" alt="Greed Game Screenshot">
+
+## Project Structure
+
+---
+
+The project files and folders are organized as follows:
+
+```
+root                    (project root folder)
++-- greed               (source code for game)
+  +-- directoring       (director class for game)
+  +-- casting           (specific game classes)
+  +-- services          (services game classes)
+  +-- shared            (game definition classes)
+  +-- __main__.py       (entry point for program)
++-- design.png          (UML Class design)
++-- README.md           (general info)
+```
 
 ## Requirements
 Your program must also meet the following requirements.
@@ -39,7 +58,7 @@ After you have finished the Development Environment Setup and with an activated
 environment, you can run the app with the command ```py Greed```
 
 ## Team Members
-- Cate Schmidt -> sch21103@byui.edu
+- Cate Schmidt  <ch21103@byui.edu>
 - Danny Hernandez -> her17048@byui.edu
 - Reynaldo Armenta Bravo -> arm19008@byui.edu
 - Anthuan Morera Zaldivar -> mor21098@byui.edu
