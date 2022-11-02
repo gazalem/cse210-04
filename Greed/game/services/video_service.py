@@ -22,6 +22,7 @@ class VideoService:
     def close_window(self):
         """Closes the window and releases all computing resources."""
         pyray.close_window()
+        print(pyray.close_window())
 
     def clear_buffer(self):
         """Clears the buffer in preparation for the next rendering. This method should be called at
