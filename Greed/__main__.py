@@ -73,12 +73,13 @@ def main():
         color = Color(r, g, b)
         
         artifact = Artifact()
+        velocity = Point(0, 3)
         artifact.set_text(text)
         artifact.set_font_size(FONT_SIZE)
         artifact.set_color(color)
         artifact.set_position(position)
         artifact.set_message(message)
-        artifact.set_velocity(45)
+        artifact.set_velocity(velocity)
         cast.add_actor("artifacts", artifact)
     
     # start the game
