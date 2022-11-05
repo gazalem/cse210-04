@@ -3,6 +3,7 @@ import pyray
 
 # TODO: Implement the Artifact class here. Don't forget to inherit from Actor!
 
+
 class Artifact(Actor):
     """Create Rocks and Gems on the screen"""
 
