@@ -69,8 +69,7 @@ class Director:
                 else:
                     self._score -= 1
                     cast.remove_actor("artifacts", artifact)
-                # message = artifact.get_message()
-                # banner.set_text(message)    
+                    
         
     def _do_outputs(self, cast):
         """Draws the actors on the screen.
