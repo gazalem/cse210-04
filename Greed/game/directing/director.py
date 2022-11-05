@@ -65,8 +65,10 @@ class Director:
             if robot.get_position().equals(artifact.get_position()):
                 if artifact.get_text() == "*":
                     self._score += 1
+                    cast.remove_actor("artifacts", artifact)
                 else:
                     self._score -= 1
+                    cast.remove_actor("artifacts", artifact)
                 # message = artifact.get_message()
                 # banner.set_text(message)    
         
