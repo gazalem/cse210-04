@@ -38,6 +38,10 @@ root                    (project root folder)
 +-- README.md           (general info)
 ```
 
+## Class Design Diagram
+This show the classes with attributes and methods
+![Class Diagram](Design.png)
+
 ## Requirements
 Your program must also meet the following requirements.
 
