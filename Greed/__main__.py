@@ -24,8 +24,8 @@ ROWS = 40
 CAPTION = "Greed"
 DATA_PATH = os.path.dirname(os.path.abspath(__file__)) + "/data/messages.txt"
 WHITE = Color(255, 255, 255)
-DEFAULT_ARTIFACTS = 20
-ROCKS_GEMS = [42, 474]
+DEFAULT_ARTIFACTS = 30
+ROCKS_GEMS = [42, 79]
 
 
 def main():
@@ -54,13 +54,9 @@ def main():
     cast.add_actor("robots", robot)
     
     # create the artifacts Gems
-    with open(DATA_PATH) as file:
-        data = file.read()
-        messages = data.splitlines()
 
     for n in range(DEFAULT_ARTIFACTS):
         text = chr(random.choice(ROCKS_GEMS))
-        message = messages[n]
 
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -78,7 +74,6 @@ def main():
         artifact.set_font_size(FONT_SIZE)
         artifact.set_color(color)
         artifact.set_position(position)
-        artifact.set_message(message)
         artifact.set_velocity(velocity)
         cast.add_actor("artifacts", artifact)
     
